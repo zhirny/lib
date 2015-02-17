@@ -1,0 +1,74 @@
+#wrapper {
+  color: #444444;
+  background-color: #eeeeee;
+  width: 95%;
+  margin: 0 auto;
+}
+
+#book { /*логотип книга*/
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin: 5px 30px;
+}
+
+#header { /*лого и название страницы*/
+  height: 80px;
+  text-align: center;
+}
+
+#menu {
+  text-align: center;
+  list-style-type: none;
+  text-indent: 10px;
+}
+
+#menu li {
+  display: inline;
+  margin: 0 1px;
+  padding: 3px 10px;
+  color: #eeeeee;
+  background-color: #666666;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#menu li a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+#authors { /*таблица авторов*/
+  margin: 10px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 75%;
+  margin: auto;
+}
+
+#footer {
+  height: 10px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #999999;
+  padding: 4px 6px;
+}
+a {
+  color: #444444;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #444444;
+}
+
+a:active {
+  color: #444444;
+}
+
+a:hover {
+  text-decoration: underline;
+}
