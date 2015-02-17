@@ -1,4 +1,5 @@
 <?php
+/*изменение для гита*/
 require_once 'connect.php';  
    
   function get_author_id() {
